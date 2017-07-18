@@ -3,6 +3,11 @@ apply plugin: 'com.github.dcendents.android-maven' // ADD THIS
 
 group='com.github.teocci'
 
+GradleVersion minGradle = GradleVersion.version('3.3')
+if (GradleVersion.current() < minGradle) {
+    throw new GradleException("${minGradle} or above is required to build this project")
+}
+
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.3"
