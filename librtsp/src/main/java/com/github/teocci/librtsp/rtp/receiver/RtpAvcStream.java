@@ -2,7 +2,7 @@ package com.github.teocci.librtsp.rtp.receiver;
 
 import android.util.Log;
 
-import com.github.teocci.librtsp.BuildConfig;
+import com.github.teocci.BuildConfig;
 import com.github.teocci.librtsp.rtp.interfaces.SampleHandler;
 import com.github.teocci.librtsp.rtp.player.Statistics;
 

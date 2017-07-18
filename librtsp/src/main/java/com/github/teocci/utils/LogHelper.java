@@ -2,7 +2,7 @@ package com.github.teocci.utils;
 
 import android.util.Log;
 
-import com.github.teocci.librtsp.BuildConfig;
+import com.github.teocci.BuildConfig;
 
 import static com.github.teocci.utils.Config.LOG_PREFIX;
 
